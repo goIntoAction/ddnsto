@@ -10,8 +10,8 @@ include $(TOPDIR)/rules.mk
 PKG_ARCH_DDNSTO:=$(ARCH)
 
 PKG_NAME:=ddnsto
-PKG_VERSION:=3.0.4
-PKG_RELEASE:=$(PKG_ARCH_DDNSTO)-7
+PKG_VERSION:=304
+PKG_RELEASE:=$(PKG_ARCH_DDNSTO)
 PKG_SOURCE:=$(PKG_NAME)-binary-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://raw.githubusercontent.com/goIntoAction/ddnsto/refs/heads/master/
 PKG_HASH:=486aa15a5e026b5a3aca72f1850746e127a7e86ef11db8a7c498dad29545eaf6
